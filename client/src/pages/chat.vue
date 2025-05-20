@@ -136,7 +136,7 @@
     await nextTick(() => message.value = '')
   }
   onMounted(() => {
-    socket.value = io('http://localhost:3001');
+    socket.value = io('https://chat-app-production-0d1d.up.railway.app');
     const { username, room } = route.query as Partial<Chat>;
 
     if (!username || !room) {
