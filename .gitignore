@@ -1,0 +1,10 @@
+# Node
+node_modules/
+dist/
+
+# Vite / Vue
+.vite/
+.env
+
+# VSCode / system
+.DS_Store
